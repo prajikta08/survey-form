@@ -1,0 +1,76 @@
+label {
+  display: block;
+  margin-bottom: 20px;
+  background-color: transparent;
+  text-align: center;
+  color: brown;
+  
+
+  
+}
+.header {
+  text-align: center;
+  background-color: rgb(57, 128, 57);
+  color: white;
+  border:darkslategrey;
+  border-style: double;
+  border-width: 5px;
+  border-radius: 10%;
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 22px;
+  font-family: serif;
+}
+body{
+  background-image: url(https://lh3.googleusercontent.com/p/AF1QipMe3aRjcGHgKcwfGm_w_TuvYCC28_3IJbF6UJ7R=s680-w680-h510)
+}
+form {
+  width: 60%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 40px;
+  font-size: 20px;
+  
+  
+}
+fieldset {
+  margin-top: 30px;
+  border: double;
+}
+
+.last {
+  text-align: center;
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 10px;
+}
+
+#submit {
+  font-size: 19px;
+  width: 30%;
+  background-color: rgb(57, 128, 57);
+  color: white;
+
+}
+
+.one{
+  background-color: burlywood;
+}
+.two{
+  background-color: burlywood;
+}
+.three{
+  background-color: burlywood;
+}
+.four{
+  background-color: burlywood;
+}
+
+
+textarea {
+  width: 450px;
+  height: 50px;
+  padding-bottom: 0%;
+  text-align: center;
+}

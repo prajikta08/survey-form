@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Survey form</title>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <div class="header">
+      <h1>Landour Bakehouse</h1>
+      <p>Thank you for dining with us! We value your feedback and would appreciate it if you could take a few moments to complete this comment card.</p>
+    </div>
+    <div>
+      <form>
+        <fieldset class="one">
+          <div> 
+            <label>Date of visit:
+              <input type="date" required></label>
+            <label>Server name:<input type="text" required></label>
+            <label>Table number: <input type="number" required></label>
+          </div>
+        </fieldset>
+
+        <fieldset class="two">
+          <div >
+            <label>How do you discover our bakehouse?
+              <select>
+                <option>(select one)</option>
+                <option>through friend</option>
+                <option>social media</option>
+                <option>research</option>
+              </select>
+            </label>
+          </div>
+        </fieldset>
+
+        <fieldset class="three">
+          <div>
+            <label>How was the food quality: <input type="radio" name="first-type"checked>excellent<input type="radio" name="first-type">good<input type="radio" name="first-type">fair<input type="radio" name="first-type">poor</label>
+            <label>How was the service quality: <input type="radio" name="second-type" checked>excellent<input type="radio" name="second-type">good<input type="radio" name="second-type">fair<input type="radio" name="second-type">poor</label>
+            <label>How was the ambience of the bakehouse: <input type="radio" name="third-type" checked>excellent<input type="radio" name="third-type">good<input type="radio" name="third-type">fair<input type="radio" name="third-type">poor</label>
+            </div>
+        </fieldset>
+
+        <fieldset class="four">
+          <div>
+            <label>comments:
+              <textarea></textarea>
+            </label>
+          </div>
+        </fieldset>
+        
+        <div class="last">
+          <input type="submit" id="submit">
+        </div>
+
+      </form>
+    </div>
+  </body>
+</html>
